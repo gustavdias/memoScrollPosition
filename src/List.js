@@ -34,7 +34,7 @@ export default function List({ items, currentView, onToggleCurrentView }) {
       // Scroll by height of nav
       window.scrollBy(0, -85);
     }
-  }, [scrollTo, currentView]);
+  }, [scrollTo, currentView]);// current view is the toggle button = refresh
 
   return (
     <div>
